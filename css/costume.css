@@ -1,0 +1,49 @@
+@charset "UTF-8"; /*------------------------------------- font-family -----------------------------------------------*/
+
+@font-face {
+    font-family: Yekan Bakh;
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts/Yekan Bakh EN 01 Hairline.ttf") format("truetype");
+}
+@font-face {
+    font-family: Ubuntu Regular;
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts/UbuntuMono-Regular.ttf") format("truetype");
+}
+
+body, html, h1, h2, h3, h4, h5, h6, p, a, span {
+    font-family: Yekan Bakh, sans-serif !important;
+}
+
+html, body {
+    font-family: Yekan Bakh, sans-serif;
+    text-align: right;
+}
+.logo-dark{
+    font-family: Ubuntu Regular,sans-serif !important;
+}
+
+.svg-shdow {
+    -webkit-filter: drop-shadow(0px 0px 12px #00ffbb);
+    filter: drop-shadow(0px 0px 12px #00ffbb);
+}
+
+div.slick-list.draggable {
+    direction: ltr;
+}
+
+.swiper-slide {
+    direction: ltr;
+}
+
+.next-up .next-up-inner .btn {
+    background-color: #67f8f1;
+}
+@media (max-width: 992px) {
+    .site-header .extend-container .main-navigation {
+        backdrop-filter: blur(17px) !important;
+        background-color: #24151540 !important;
+    }
+}
